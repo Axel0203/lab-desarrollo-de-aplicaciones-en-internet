@@ -1,0 +1,160 @@
+*{
+    font-family: 'Catamaran', sans-serif;
+    overflow: hidden;
+}
+:root{
+    --white: #F9f9f9;
+    --whiteEnfasis: #FFFFFF;
+    --black: #313131;
+    --blackEnfasis: #414141;
+    --color1: #db96b0;
+    --color1Enfasis: #99697b;
+    --color1Action: #e6b6c8;
+    --color2:#1b628c;
+    --color2Enfasis: #134562;
+    --color2Action: #5f91af;
+    --color3: #624d43;
+    --color3Enfasis: #45362f;
+    --color3Action: #91827b;
+    --color4: #608390;
+    --color4Enfasis: #435c65;
+    --color4Action: #90a8b1;
+    --done: #54aa78;
+    --doneAction: #5ebd85;
+}
+.section{
+    height: 100vh;
+}
+.container-fluid{
+    padding-bottom: 60px;
+}
+.nav-container{
+    top: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: var(--black);
+    text-align: center;
+    padding: 15px;
+    z-index: 10000;
+}
+.nav-container .row .col a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+}
+.footer-container{
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    position: fixed;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.footer-container p{
+    margin: 15px;
+}
+.title{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+.subtitle{
+    margin: 15px 0 15px 0;
+    font-size: 4.5rem;
+}
+.description{
+    font-size: 1.8rem;
+    margin: 25px 0 25px 0;
+    letter-spacing: 2px;
+}
+.languageName{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--white);
+    margin: 20px;
+    text-align: center;
+}
+.perc-language{
+    font-size: 1.7rem;
+    color: var(--white);
+    margin: 30px;
+    text-align: center;
+}
+.lang-cardcont{
+    background-color: var(--color3);
+    border: solid var(--color3Enfasis) 5px;
+    border-radius: 5%;
+    margin: 47px;
+}
+.button{
+    background-color: var(--black);
+    border: solid var(--black) 3px;
+    width: 215px;
+    margin: 20px 40px 20px 00px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+.button a{
+    text-decoration: none;
+    color: var(--whiteEnfasis);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.profilepic-container{
+    border: solid var(--color1Enfasis);
+    border-radius: 50%;
+    width: 55%;
+    transition: 0.4s;
+}
+.profilepic-container:hover{
+    background-color: var(--blackEnfasis);
+}
+.img-container-experience{
+    width: 50%;
+}
+.d-block{
+    border-radius: 3%;
+}
+.b-profile:hover{
+    border: solid var(--color1);
+    background-color: var(--color1Action);
+    color: var(--white);
+}
+.b-experience:hover{
+    border: solid var(--color2);
+    background-color: var(--color2Action);
+    color: var(--white);
+}
+.b-skills:hover{
+    border: solid var(--color3);
+    background-color: var(--color3Action);
+    color: var(--white);
+}
+.b-contact:hover{
+    border: solid var(--color4);
+    background-color: var(--color4Action);
+    color: var(--white);
+}
+.b-done:hover{
+    border: solid var(--done);
+    background-color: var(--doneAction);
+}
+.t-profile{
+    color: var(--color1Enfasis);
+}
+.t-experience{
+    color: var(--color2Enfasis);
+}
+.t-skills{
+    color: var(--color3Enfasis);
+}
+.t-contact{
+    color: var(--color4Enfasis);
+}
